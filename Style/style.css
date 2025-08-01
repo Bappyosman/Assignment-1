@@ -1,0 +1,304 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Font family: Raleway */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
+header{
+  height: 698px;
+  width: 100%;
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+}
+.btn{
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}
+.header-div-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.header-div-1 h2{
+  font-size: 34px;
+  color: #4E47FF;
+}
+.header-div-2{
+  max-width: 905px;
+  max-height: 237px;
+  text-align: center;
+  margin: 152px 267.5px;
+   
+}
+.header-div-2 h1{
+  font-size: 65px;
+}
+.section-1{
+  width: 1140px;
+  height: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 116px 100px;
+}
+.section-1 div{
+  max-width: 517px;
+  max-height: 203px;
+  gap: 23px;
+}
+.section-1 div h2{
+  font-size: 42px;
+}
+.section-1 img{
+  border-radius: 48px;
+  height: 328px;
+  width: 403px;
+}
+.section-1 div p{
+  font-size: 24px;
+  color: #252432;
+}
+.section-2{
+  width: 1140px;
+  height:306px;
+  margin: 0 100px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 10px;
+}
+.section-2-div-2{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.section-2-div-1 h3{
+  
+  font-size: 38px;
+  text-align: center;
+  gap: 60px;
+  padding-top: 50px;
+}
+.item h1{
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0;
+}
+.item p{
+  margin: 5px 0 0;
+  color: #555;
+  font-size: 20px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 0;
+}
+
+.testimonials h2 {
+  font-size: 42px;
+  color: #333;
+  margin-top: 137px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.stars {
+  color: #f4b400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-info span {
+  font-size: 12px;
+  color: #333;
+}
+
+.reviewer-info .date {
+  color: #aaa;
+  font-size: 11px;
+}
+.section-4{
+  width: 1140px;
+  height: 696.77px;
+  margin: 137px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-4 h2{
+  font-size: 50px;
+  margin-top: 0;
+}
+.section-4 p{
+  font-size: 20px;
+  color: #555;
+  margin-top: 0;
+}
+.section-4 img{
+  margin-top: 20px;
+  border-radius: 48px;
+}
+.section-5{
+  width: 1140px;
+  height: auto;
+  margin: 97px 100px;
+  padding: 20px;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 0; /* ডান-বাম padding বাদ দিয়ে শুধু উপরে-নীচে */
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 1200px;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-text h1 {
+  font-size: 97px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0; /* extra margin বাদ */
+}
+
+.Form label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.Form input,
+.Form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.Form input:focus,
+.Form textarea:focus {
+  outline: none;
+  border-color: #4e47ff;
+  box-shadow: 0 0 0 3px rgba(78, 71, 255, 0.1);
+}
+
+.Form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.Form .btn {
+  padding: 15px;
+  background: #4e47ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.Form .btn:hover {
+  background: #3a34cc;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .contact-text {
+    margin-bottom: 30px;
+  }
+}
+.Footer{
+  text-align: center;
+}
+.Footer h1{
+  font-size: 100px;
+  color: #4E47FF;
+  margin-bottom: 0;
+}
+.Footer p{
+  color: #555;
+  max-width: 540px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+.Footer ul a{
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #555;
+}
